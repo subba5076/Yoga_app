@@ -1,4 +1,4 @@
-# MAD
+# MAD_YOGA_APP
 Our project provides a simple, user-friendly interface to ensure that the 
 user's experience while using the app is smooth. The user can select one 
 of the yoga postures from the existing plans provided. Once the user has 
