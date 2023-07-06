@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/l"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pay">
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="354dp"
+        android:layout_height="77dp"
+        android:fontFamily="@font/nb"
+        android:text="Instructions"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="343dp"
+        android:layout_height="244dp"
+        android:text="1.Make the payment to the given upi id  &#xA; &#xA;step2.send the screenshot to the given mail along with the utr number  &#xA; &#xA;3.Once the payment is confirmed login credentials will be shared  &#xA;  &#xA; UPI:abc66.okicici  &#xA; Mail:abc66.5076@gmail.com"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402" />
+</androidx.constraintlayout.widget.ConstraintLayout>

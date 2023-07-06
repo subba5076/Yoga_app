@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/l"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shavasan">
+
+    <TextView
+        android:id="@+id/padm4"
+        android:layout_width="309dp"
+        android:layout_height="98dp"
+        android:text="4.Taking your attention to different body parts one by one, slowly relax your entire body."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <TextView
+        android:id="@+id/padm5"
+        android:layout_width="309dp"
+        android:layout_height="98dp"
+        android:text="5.Begin with bringing your awareness to the right foot, move on to the right knee (as you complete one leg, move your attention on to the other leg), and so on, and slowly move upwards to your head, relaxing each part of the body."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593" />
+
+    <TextView
+        android:id="@+id/padm6"
+        android:layout_width="309dp"
+        android:layout_height="98dp"
+        android:text="6.Keep breathing slowly, gently, deeply and allow your breath to relax you more and more. The incoming breath energizes the body while the outgoing breath brings relaxation. Drop all sense of hurry or urgency or any need to attend to anything else. Just be with the body and the breath. Surrender the whole body to the floor and let go. Make sure you don’t fall asleep!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <TextView
+        android:id="@+id/padm7"
+        android:layout_width="309dp"
+        android:layout_height="98dp"
+        android:text="3.Place your arms alongside, yet a little spread apart from your body. Leave your palms open, facing upward."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <TextView
+        android:id="@+id/padm2"
+        android:layout_width="309dp"
+        android:layout_height="98dp"
+        android:text="1.Lie flat on your back, preferably without any props or cushions. Use small pillow below your neck if absolutely required. Close your eyes."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191" />
+
+    <TextView
+        android:id="@+id/padm3"
+        android:layout_width="309dp"
+        android:layout_height="98dp"
+        android:text="2.Keep your legs comfortable apart and let your feet and knees relax completely, toes facing to the sides."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/padm"
+        android:layout_width="279dp"
+        android:layout_height="86dp"
+        android:fontFamily="@font/bm"
+        android:text="Shavasana"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="240dp"
+        android:layout_height="118dp"
+
+        app:autoPlay="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.971"
+        app:videoId="1VYlOKUdylM" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

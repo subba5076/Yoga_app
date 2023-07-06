@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/l"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tadasana">
+
+    <TextView
+        android:id="@+id/padm4"
+        android:layout_width="309dp"
+        android:layout_height="98dp"
+        android:text="4.Let your arms relax beside your torso, palms facing in or forward."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639" />
+
+    <TextView
+        android:id="@+id/padm5"
+        android:layout_width="309dp"
+        android:layout_height="98dp"
+        android:text="5.Balance the crown of your head directly over the center of your pelvis, with the underside of your chin parallel to the floor, throat soft, and tongue wide and flat on the floor of your mouth. Soften your eyes. Breathe."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.714" />
+
+    <TextView
+        android:id="@+id/padm7"
+        android:layout_width="309dp"
+        android:layout_height="98dp"
+        android:text="3.Without pushing your lower front ribs forward, lift the top of your sternum straight toward the ceiling. Widen your collarbones. Allow your shoulder blades to draw toward each other and down the back, away from the ears."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484" />
+
+    <TextView
+        android:id="@+id/padm2"
+        android:layout_width="309dp"
+        android:layout_height="98dp"
+        android:text="1.Stand with the feel parallel, a few inches apart. (Alternately you may stand with the bases of your big toes touching, heels slightly apart."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191" />
+
+    <TextView
+        android:id="@+id/padm3"
+        android:layout_width="309dp"
+        android:layout_height="98dp"
+        android:text="2.Lift and spread your toes and the balls of your feet, then lay them softly back down on the floor. Rock gently back and forth and side to side. Gradually reduce this swaying to a standstill, with your weight balanced evenly across your feet. Feel the energy draw from your feet up through your core."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.298" />
+
+    <TextView
+        android:id="@+id/padm"
+        android:layout_width="279dp"
+        android:layout_height="86dp"
+        android:fontFamily="@font/bm"
+        android:text="Tadasana"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="240dp"
+        android:layout_height="118dp"
+
+        app:autoPlay="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.971"
+        app:videoId="2HTvZp5rPrg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
